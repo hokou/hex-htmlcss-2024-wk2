@@ -32,6 +32,48 @@ body {
   display: flex;
 }
 
+.justify-content-between {
+  justify-content: space-between;
+}
+
+.justify-content-end {
+  justify-content: flex-end;
+}
+
+.py-40 {
+  padding: 40px 0;
+}
+
+.w-638 {
+  width: 638px;
+}
+
+.h1 {
+  font-size: 128px;
+}
+
+.h2 {
+  font-size: 64px;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-green {
+  color: #00ffa3;
+}
+
+.btn {
+  padding: 12px 24px;
+  border-radius: 32px;
+}
+
+.btn-white {
+  background: #ffffff;
+  color: #000;
+}
+
 /* layout */
 .header {
   background: #000;
@@ -43,6 +85,12 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.banner {
+  padding-top: 40px;
+  background: #000;
+  color: #ffffff;
 }
 
 .footer {
