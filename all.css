@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap");
 
 /* all */
+
 *, *::before, *::after {
   box-sizing: border-box;
 }
@@ -23,6 +24,7 @@ body {
 }
 
 /* base */
+
 .container {
   width: 1296px;
   margin: 0 auto;
@@ -44,8 +46,24 @@ body {
   padding: 40px 0;
 }
 
+.pb-36 {
+  padding-bottom: 36px;
+}
+
+.pb-32 {
+  padding-bottom: 32px;
+}
+
+.ml-24 {
+  margin-left: 24px;
+}
+
 .w-638 {
   width: 638px;
+}
+
+.w-526 {
+  width: 526px;
 }
 
 .h1 {
@@ -54,6 +72,10 @@ body {
 
 .h2 {
   font-size: 64px;
+}
+
+.fs-24 {
+  font-size: 24px;
 }
 
 .text-right {
@@ -75,6 +97,7 @@ body {
 }
 
 /* layout */
+
 .header {
   background: #000;
   color: #d1d1d1;
@@ -91,6 +114,14 @@ body {
   padding-top: 40px;
   background: #000;
   color: #ffffff;
+}
+
+.intro {
+  background-image: url("img/background-img.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #ffffff;
+  padding: 160px 0;
 }
 
 .footer {
