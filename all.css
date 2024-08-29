@@ -28,3 +28,19 @@ body {
   margin: 0 auto;
 }
 
+.d-flex {
+  display: flex;
+}
+
+/* layout */
+.header {
+  background: #000;
+  color: #d1d1d1;
+  padding: 40px 0;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
