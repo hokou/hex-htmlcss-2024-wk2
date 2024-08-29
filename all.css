@@ -44,3 +44,10 @@ body {
   justify-content: space-between;
   align-items: center;
 }
+
+.footer {
+  background: #000;
+  color: #ffffff;
+  padding: 40px 0;
+  text-align: center;
+}
