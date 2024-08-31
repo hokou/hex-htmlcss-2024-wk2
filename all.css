@@ -42,6 +42,10 @@ body {
   justify-content: flex-end;
 }
 
+.align-items-center {
+  align-items: center;
+}
+
 .py-40 {
   padding: 40px 0;
 }
@@ -56,6 +60,14 @@ body {
 
 .ml-24 {
   margin-left: 24px;
+}
+
+.mb-8 {
+  margin-bottom: 8px;
+}
+
+.mb-36 {
+  margin-bottom: 36px;
 }
 
 .w-636 {
@@ -76,6 +88,10 @@ body {
 
 .fs-24 {
   font-size: 24px;
+}
+
+.fs-20 {
+  font-size: 20px;
 }
 
 .text-right {
@@ -122,6 +138,23 @@ body {
   background-size: cover;
   color: #ffffff;
   padding: 160px 0;
+}
+
+.about {
+  color: #15161d;
+  padding: 160px 0;
+}
+
+.about-list {
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+.about-block {
+  width: 306px;
+  padding: 16px;
+  border: #e3e3e3 solid 1px;
+  box-shadow: 4px 4px 4px 0 rgba(0, 0, 0, 0.08);
 }
 
 .footer {
