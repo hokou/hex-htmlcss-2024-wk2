@@ -74,6 +74,10 @@ body {
   width: 636px;
 }
 
+.w-657 {
+  width: 657px;
+}
+
 .w-526 {
   width: 526px;
 }
@@ -155,6 +159,22 @@ body {
   padding: 16px;
   border: #e3e3e3 solid 1px;
   box-shadow: 4px 4px 4px 0 rgba(0, 0, 0, 0.08);
+}
+
+.contact {
+  background: linear-gradient(180deg, #050014 0%, rgba(1, 2, 30, 0.89) 100%);
+  color: #ffffff;
+  padding: 96px 0;
+}
+
+.social-link {
+  border-radius: 40px;
+  box-shadow: 4px 4px 8px 0 rgba(0, 0, 0, 0.08);
+}
+
+.social-link:hover {
+  transition: 1s;
+  box-shadow: 0 0 16px 3px rgba(144, 148, 255, 0.9), 0 4px 4px 0 rgba(0, 0, 0, 0.25);
 }
 
 .footer {
