@@ -34,6 +34,10 @@ body {
   display: flex;
 }
 
+.d-column {
+  flex-direction: column;
+}
+
 .justify-content-between {
   justify-content: space-between;
 }
@@ -44,6 +48,10 @@ body {
 
 .align-items-center {
   align-items: center;
+}
+
+.align-items-start {
+  align-items: flex-start;
 }
 
 .py-40 {
@@ -58,6 +66,10 @@ body {
   padding-bottom: 32px;
 }
 
+.ml-4 {
+  margin-left: 4px;
+}
+
 .ml-24 {
   margin-left: 24px;
 }
@@ -70,6 +82,10 @@ body {
   margin-bottom: 36px;
 }
 
+.w-526 {
+  width: 526px;
+}
+
 .w-636 {
   width: 636px;
 }
@@ -78,8 +94,8 @@ body {
   width: 657px;
 }
 
-.w-526 {
-  width: 526px;
+.w-856 {
+  width: 856px;
 }
 
 .h1 {
@@ -114,6 +130,11 @@ body {
 .btn-white {
   background: #ffffff;
   color: #000;
+}
+
+.btn-dark {
+  background: #000;
+  color: white;
 }
 
 /* layout */
@@ -175,6 +196,15 @@ body {
 .social-link:hover {
   transition: 1s;
   box-shadow: 0 0 16px 3px rgba(144, 148, 255, 0.9), 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+}
+
+.project {
+  padding: 160px 0;
+}
+
+.project-title {
+  width: 746px;
+  margin-left: auto;
 }
 
 .footer {
